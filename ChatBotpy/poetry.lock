@@ -1,0 +1,200 @@
+[[package]]
+category = "main"
+description = "Python package for providing Mozilla's CA Bundle."
+name = "certifi"
+optional = false
+python-versions = "*"
+version = "2019.11.28"
+
+[[package]]
+category = "main"
+description = "Universal encoding detector for Python 2 and 3"
+name = "chardet"
+optional = false
+python-versions = "*"
+version = "3.0.4"
+
+[[package]]
+category = "main"
+description = ""
+name = "chatterbot"
+optional = false
+python-versions = "*"
+version = "0.6.3"
+
+[package.dependencies]
+SQLAlchemy = ">=1.1,<1.2"
+chatterbot-corpus = ">=0.0.1,<1.0.0"
+jsondatabase = ">=0.1.7,<1.0.0"
+nltk = ">=3.2.0,<4.0.0"
+pymongo = ">=3.3.0,<4.0.0"
+python-twitter = ">=3.0.0,<4.0.0"
+
+[[package]]
+category = "main"
+description = ""
+name = "chatterbot-corpus"
+optional = false
+python-versions = "*"
+version = "0.0.2"
+
+[[package]]
+category = "main"
+description = "A voice interface adapter for ChatterBot."
+name = "chatterbot-voice"
+optional = false
+python-versions = "*"
+version = "0.1.5"
+
+[package.dependencies]
+ChatterBot = ">=0.3.5,<0.7.0"
+SpeechRecognition = ">=3.3.3"
+
+[[package]]
+category = "main"
+description = "Clean single-source support for Python 3 and 2"
+name = "future"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
+version = "0.18.2"
+
+[[package]]
+category = "main"
+description = "Internationalized Domain Names in Applications (IDNA)"
+name = "idna"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "2.8"
+
+[[package]]
+category = "main"
+description = ""
+name = "jsondatabase"
+optional = false
+python-versions = "*"
+version = "0.1.7"
+
+[package.dependencies]
+pymongo = "*"
+
+[[package]]
+category = "main"
+description = "Natural Language Toolkit"
+name = "nltk"
+optional = false
+python-versions = "*"
+version = "3.4.5"
+
+[package.dependencies]
+six = "*"
+
+[[package]]
+category = "main"
+description = "A generic, spec-compliant, thorough implementation of the OAuth request-signing logic"
+name = "oauthlib"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "3.1.0"
+
+[[package]]
+category = "main"
+description = "Python driver for MongoDB <http://www.mongodb.org>"
+name = "pymongo"
+optional = false
+python-versions = "*"
+version = "3.10.1"
+
+[[package]]
+category = "main"
+description = "A Python wrapper around the Twitter API"
+name = "python-twitter"
+optional = false
+python-versions = "*"
+version = "3.5"
+
+[package.dependencies]
+future = "*"
+requests = "*"
+requests-oauthlib = "*"
+
+[[package]]
+category = "main"
+description = "Python HTTP for Humans."
+name = "requests"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "2.22.0"
+
+[package.dependencies]
+certifi = ">=2017.4.17"
+chardet = ">=3.0.2,<3.1.0"
+idna = ">=2.5,<2.9"
+urllib3 = ">=1.21.1,<1.25.0 || >1.25.0,<1.25.1 || >1.25.1,<1.26"
+
+[[package]]
+category = "main"
+description = "OAuthlib authentication support for Requests."
+name = "requests-oauthlib"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "1.3.0"
+
+[package.dependencies]
+oauthlib = ">=3.0.0"
+requests = ">=2.0.0"
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+version = "1.14.0"
+
+[[package]]
+category = "main"
+description = "Library for performing speech recognition, with support for several engines and APIs, online and offline."
+name = "speechrecognition"
+optional = false
+python-versions = "*"
+version = "3.8.1"
+
+[[package]]
+category = "main"
+description = "Database Abstraction Library"
+name = "sqlalchemy"
+optional = false
+python-versions = "*"
+version = "1.1.18"
+
+[[package]]
+category = "main"
+description = "HTTP library with thread-safe connection pooling, file post, and more."
+name = "urllib3"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4"
+version = "1.25.8"
+
+[metadata]
+content-hash = "8a1efa03cf9b4474c57201a92609fcbccc94755d432fc914a2a200395273dcc4"
+python-versions = "^3.7"
+
+[metadata.hashes]
+certifi = ["017c25db2a153ce562900032d5bc68e9f191e44e9a0f762f373977de9df1fbb3", "25b64c7da4cd7479594d035c08c2d809eb4aab3a26e5a990ea98cc450c320f1f"]
+chardet = ["84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae", "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"]
+chatterbot = ["280a1bbc5abb6f162aabff364dfa1639005066ddb638bbcae3ddf4e0f649a7e8", "c201702bbb347cddee81f4cc89981de928a675c3566f41ad49bb7eec2c9aeb33"]
+chatterbot-corpus = ["406072bf2d7e75f3ae4e9722a8d56effbfbfb2b9d32fac08409e6344b8215d3c", "732c1bf0cbbe36c017b52267a7df2488568ecb257367a9ac048033378a57305e"]
+chatterbot-voice = ["7e8562a0e68c074fcfc32041ce4059d723e997ea4df10fe1ac459cec2933b611"]
+future = ["b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d"]
+idna = ["c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407", "ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c"]
+jsondatabase = ["0474dfacd515268185f2ad70bbdbb5cea7255629e7d0060d4526613dd35a488e", "994a34203d2c6bf224dc96ab271d42059bd1b9e247a085f6d786e0e8e68a1a81"]
+nltk = ["a08bdb4b8a1c13de16743068d9eb61c8c71c2e5d642e8e08205c528035843f82", "bed45551259aa2101381bbdd5df37d44ca2669c5c3dad72439fa459b29137d94"]
+oauthlib = ["bee41cc35fcca6e988463cacc3bcb8a96224f470ca547e697b604cc697b2f889", "df884cd6cbe20e32633f1db1072e9356f53638e4361bef4e8b03c9127c9328ea"]
+pymongo = ["01b4e10027aef5bb9ecefbc26f5df3368ce34aef81df43850f701e716e3fe16d", "0fc5aa1b1acf7f61af46fe0414e6a4d0c234b339db4c03a63da48599acf1cbfc", "1396eb7151e0558b1f817e4b9d7697d5599e5c40d839a9f7270bd90af994ad82", "18e84a3ec5e73adcb4187b8e5541b2ad61d716026ed9863267e650300d8bea33", "19adf2848b80cb349b9891cc854581bbf24c338be9a3260e73159bdeb2264464", "20ee0475aa2ba437b0a14806f125d696f90a8433d820fb558fdd6f052acde103", "26798795097bdeb571f13942beef7e0b60125397811c75b7aa9214d89880dd1d", "26e707a4eb851ec27bb969b5f1413b9b2eac28fe34271fa72329100317ea7c73", "2a3c7ad01553b27ec553688a1e6445e7f40355fb37d925c11fcb50b504e367f8", "2f07b27dbf303ea53f4147a7922ce91a26b34a0011131471d8aaf73151fdee9a", "316f0cf543013d0c085e15a2c8abe0db70f93c9722c0f99b6f3318ff69477d70", "31d11a600eea0c60de22c8bdcb58cda63c762891facdcb74248c36713240987f", "334ef3ffd0df87ea83a0054454336159f8ad9c1b389e19c0032d9cb8410660e6", "358ba4693c01022d507b96a980ded855a32dbdccc3c9331d0667be5e967f30ed", "3a6568bc53103df260f5c7d2da36dffc5202b9a36c85540bba1836a774943794", "444bf2f44264578c4085bb04493bfed0e5c1b4fe7c2704504d769f955cc78fe4", "47a00b22c52ee59dffc2aad02d0bbfb20c26ec5b8de8900492bf13ad6901cf35", "4c067db43b331fc709080d441cb2e157114fec60749667d12186cc3fc8e7a951", "4c092310f804a5d45a1bcaa4191d6d016c457b6ed3982a622c35f729ff1c7f6b", "53b711b33134e292ef8499835a3df10909c58df53a2a0308f598c432e9a62892", "568d6bee70652d8a5af1cd3eec48b4ca1696fb1773b80719ebbd2925b72cb8f6", "56fa55032782b7f8e0bf6956420d11e2d4e9860598dfe9c504edec53af0fc372", "5a2c492680c61b440272341294172fa3b3751797b1ab983533a770e4fb0a67ac", "61235cc39b5b2f593086d1d38f3fc130b2d125bd8fc8621d35bc5b6bdeb92bd2", "619ac9aaf681434b4d4718d1b31aa2f0fce64f2b3f8435688fcbdc0c818b6c54", "6238ac1f483494011abde5286282afdfacd8926659e222ba9b74c67008d3a58c", "63752a72ca4d4e1386278bd43d14232f51718b409e7ac86bcf8810826b531113", "6fdc5ccb43864065d40dd838437952e9e3da9821b7eac605ba46ada77f846bdf", "7abc3a6825a346fa4621a6f63e3b662bbb9e0f6ffc32d30a459d695f20fb1a8b", "7aef381bb9ae8a3821abd7f9d4d93978dbd99072b48522e181baeffcd95b56ae", "80df3caf251fe61a3f0c9614adc6e2bfcffd1cd3345280896766712fb4b4d6d7", "95f970f34b59987dee6f360d2e7d30e181d58957b85dff929eee4423739bd151", "993257f6ca3cde55332af1f62af3e04ca89ce63c08b56a387cdd46136c72f2fa", "9c0a57390549affc2b5dda24a38de03a5c7cbc58750cd161ff5d106c3c6eec80", "a0794e987d55d2f719cc95fcf980fc62d12b80e287e6a761c4be14c60bd9fecc", "a3b98121e68bf370dd8ea09df67e916f93ea95b52fc010902312168c4d1aff5d", "a60756d55f0887023b3899e6c2923ba5f0042fb11b1d17810b4e07395404f33e", "a676bd2fbc2309092b9bbb0083d35718b5420af3a42135ebb1e4c3633f56604d", "a732838c78554c1257ff2492f5c8c4c7312d0aecd7f732149e255f3749edd5ee", "ad3dc88dfe61f0f1f9b99c6bc833ea2f45203a937a18f0d2faa57c6952656012", "ae65d65fde4135ef423a2608587c9ef585a3551fc2e4e431e7c7e527047581be", "b070a4f064a9edb70f921bfdc270725cff7a78c22036dd37a767c51393fb956f", "b6da85949aa91e9f8c521681344bd2e163de894a5492337fba8b05c409225a4f", "bbf47110765b2a999803a7de457567389253f8670f7daafb98e059c899ce9764", "bd9c1e6f92b4888ae3ef7ae23262c513b962f09f3fb3b48581dde5df7d7a860a", "c06b3f998d2d7160db58db69adfb807d2ec307e883e2f17f6b87a1ef6c723f11", "c318fb70542be16d3d4063cde6010b1e4d328993a793529c15a619251f517c39", "c4aef42e5fa4c9d5a99f751fb79caa880dac7eaf8a65121549318b984676a1b7", "c9ca545e93a9c2a3bdaa2e6e21f7a43267ff0813e8055adf2b591c13164c0c57", "da2c3220eb55c4239dd8b982e213da0b79023cac59fe54ca09365f2bc7e4ad32", "dd8055da300535eefd446b30995c0813cc4394873c9509323762a93e97c04c03", "e2b46e092ea54b732d98c476720386ff2ccd126de1e52076b470b117bff7e409", "e334c4f39a2863a239d38b5829e442a87f241a92da9941861ee6ec5d6380b7fe", "e5c54f04ca42bbb5153aec5d4f2e3d9f81e316945220ac318abd4083308143f5", "f4d06764a06b137e48db6d569dc95614d9d225c89842c885669ee8abc9f28c7a", "f96333f9d2517c752c20a35ff95de5fc2763ac8cdb1653df0f6f45d281620606"]
+python-twitter = ["45855742f1095aa0c8c57b2983eee3b6b7f527462b50a2fa8437a8b398544d90", "4a420a6cb6ee9d0c8da457c8a8573f709c2ff2e1a7542e2d38807ebbfe8ebd1d"]
+requests = ["11e007a8a2aa0323f5a921e9e6a2d7e4e67d9877e85773fba9ba6419025cbeb4", "9cf5292fcd0f598c671cfc1e0d7d1a7f13bb8085e9a590f48c010551dc6c4b31"]
+requests-oauthlib = ["7f71572defaecd16372f9006f33c2ec8c077c3cfa6f5911a9a90202beb513f3d", "b4261601a71fd721a8bd6d7aa1cc1d6a8a93b4a9f5e96626f8e4d91e8beeaa6a", "fa6c47b933f01060936d87ae9327fead68768b69c6c9ea2109c48be30f2d4dbc"]
+six = ["236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a", "8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"]
+speechrecognition = ["4d8f73a0c05ec70331c3bacaa89ecc06dfa8d9aba0899276664cda06ab597e8e"]
+sqlalchemy = ["8b0ec71af9291191ba83a91c03d157b19ab3e7119e27da97932a4773a3f664a9"]
+urllib3 = ["2f3db8b19923a873b3e5256dc9c2dedfa883e33d87c690d9c7913e1f40673cdc", "87716c2d2a7121198ebcb7ce7cccf6ce5e9ba539041cfbaeecfb641dc0bf6acc"]
